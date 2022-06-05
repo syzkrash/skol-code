@@ -1,0 +1,41 @@
+{
+  "scopeName": "source.skol",
+  "patterns": [
+    {
+      "begin": "/\\*",
+      "end": "\\*/",
+      "name": "comment.block.skol"
+    },
+    {
+      "match": "//.+\\n",
+      "name": "comment.line.double-slash.skol"
+    },
+    {
+      "match": "-?(\\d|\\.)+",
+      "name": "constant.numeric.skol"
+    },
+    {
+      "match": "\\w+!",
+      "name": "entity.name.function.skol"
+    },
+    {
+      "match": "\\w+",
+      "name": "variable.other.object.skol"
+    },
+    {
+      "match": "\\(|\\)|\\$|%|:|/|>|\\?|\\*|#",
+      "name": "keyword.operator.logical.skol"
+    },
+
+    {
+      "begin": "\"",
+      "end": "\"",
+      "name": "string.quoted.double.skol"
+    },
+    {
+      "begin": "'",
+      "end": "'",
+      "name": "string.quoted.single.skol"
+    }
+  ]
+}
