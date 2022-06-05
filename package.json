@@ -6,6 +6,9 @@
     "vscode": "^1.67.0"
   },
   "license": "BSD-3-Clause",
+  "repository": {
+    "url": "https://github.com/syzkrash/skol-code"
+  },
   "displayName": "Skol",
   "description": "Provides support for the skol language",
   "categories": [
