@@ -23,13 +23,12 @@
       "name": "variable.other.object.skol"
     },
     {
-      "match": "\\(|\\)|\\$|%|:|/|>|\\?|\\*|#",
+      "match": "\\(|\\)|\\$|%|:|/|>|\\?|\\*|#|@",
       "name": "keyword.operator.logical.skol"
     },
 
     {
-      "begin": "\"",
-      "end": "\"",
+      "match": "\"[^\"]*\"",
       "name": "string.quoted.double.skol"
     },
     {
