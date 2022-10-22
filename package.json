@@ -20,7 +20,8 @@
       {
         "id": "skol",
         "extensions": [
-          ".skol"
+          ".skol",
+		  ".sk"
         ],
         "configuration": "./language-configuration.json"
       }
